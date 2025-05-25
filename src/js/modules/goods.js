@@ -7,7 +7,7 @@ export default function goods() {
 
       str += `<div class="card-title"><h5>${books[i].title}</h5></div>`;
 
-      str += `<div class="image card-body"><img src="${books[i].imageCover}" /></div>`;
+      str += `<div class="image card-body"><img src="${books[i].imageCover}" width="200" /></div>`;
       str += `<div class="card-text"><p>${books[i].author}</p></div>`;
       str += `</div>`;
       str += `</div>`;
@@ -26,7 +26,7 @@ export default function goods() {
   //loadBooks();
   document.getElementById("load").addEventListener("click", loadBooks);
   // window.addEventListener("load", loadBooks);
-  // $("button").click(function () {
+  // $("#load").click(function () {
   //   $.getJSON("books.json", function (result) {
   //     $.each(result, function (i, field) {
   //       $("#books").append(i + " " + field.title + "<br>");

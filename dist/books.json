@@ -2,19 +2,22 @@
   {
     "title": "Harry Potter and the Philosopher’s Stone",
     "author": "Joanne Rowling",
-    "cost": 190,
-    "quantity": 0
+    "imageCover": "https://storage.googleapis.com/pod_public/1300/105089.jpg",
+    "price": 190,
+    "count": 0
   },
   {
     "title": "Death on the Nile",
     "author": "Agatha Christie",
-    "cost": 120,
-    "quantity": 0
+    "imageCover": "https://storage.googleapis.com/pod_public/1300/105089.jpg",
+    "price": 120,
+    "count": 0
   },
   {
     "title": "The Lord of the Rings",
     "author": "John Ronald Reuel Tolkien",
-    "cost": 600,
-    "quantity": 0
+    "imageCover": "https://storage.googleapis.com/pod_public/1300/105089.jpg",
+    "price": 600,
+    "count": 0
   }
 ]
