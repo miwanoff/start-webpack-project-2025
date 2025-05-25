@@ -24,7 +24,10 @@ export default function goods() {
     insertBooks(data);
   }
   //loadBooks();
-  document.getElementById("load").addEventListener("click", loadBooks);
+
+  // document.getElementById("load").addEventListener("click", loadBooks);
+  window.addEventListener("load", loadBooks);
+  
   // window.addEventListener("load", loadBooks);
   // $("#load").click(function () {
   //   $.getJSON("books.json", function (result) {
